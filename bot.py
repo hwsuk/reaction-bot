@@ -10,9 +10,14 @@ try:
 except KeyError:
     print("No Discord channel ID specified. Please set the DISCORD_CHANNEL_ID environment variable.")
 
+invisible = 'DISCORD_APPEAR_INVISIBLE'
+
 @client.event
 async def on_ready():
     print(f'Logged in as {client.user}.')
+    
+    if invisible:
+        client.change_presence(status=discord.Status.invisible)
 
 @client.event
 async def on_message(message):
