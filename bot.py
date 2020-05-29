@@ -10,7 +10,7 @@ try:
 except KeyError:
     print("No Discord channel ID specified. Please set the DISCORD_CHANNEL_ID environment variable.")
 
-invisible = 'DISCORD_APPEAR_INVISIBLE'
+invisible = 'DISCORD_APPEAR_INVISIBLE' in env_vars
 
 @client.event
 async def on_ready():
