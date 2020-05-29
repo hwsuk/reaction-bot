@@ -15,9 +15,8 @@ pip3 install -r requirements.txt
 
 Then run the bot with the following environment variables set:
 
-| | |
-| -- | -- |
 | Name | Purpose |
+| -- | -- |
 | DISCORD_CHANNEL_ID | The channel ID to look for messages in. |
 | DISCORD_CLIENT_TOKEN | The token for the bot's user. |
 | DISCORD_APPEAR_INVISIBLE | Optional, if set with _any value_ the bot will appear offline. |
