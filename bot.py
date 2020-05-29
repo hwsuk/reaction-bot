@@ -6,7 +6,7 @@ client = discord.Client()
 CHANNEL_ID = ""
 
 try:
-    CHANNEL_ID = env_vars['DISCORD_CHANNEL_ID']
+    CHANNEL_ID = int(env_vars['DISCORD_CHANNEL_ID'])
 except KeyError:
     print("No Discord channel ID specified. Please set the DISCORD_CHANNEL_ID environment variable.")
 
