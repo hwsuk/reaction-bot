@@ -1,6 +1,6 @@
-# HWSUK Feedback Bot
+# ~~HWSUK Feedback Bot~~ THIS BOT IS DEPRECATED - DO NOT USE
 
-This is an extremely simple bot to react to any message posted in a specified channel with thumbs up/down emoji, to enable a rudimentary feedback mechanism. It will also notify moderators of popular items of feedback.
+This ~~is~~ was an extremely simple bot to react to any message posted in a specified channel with thumbs up/down emoji, to enable a rudimentary feedback mechanism. It will also notify moderators of popular items of feedback.
 
 ## Deployment
 
