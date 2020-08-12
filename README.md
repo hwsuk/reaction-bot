@@ -2,6 +2,8 @@
 
 This ~~is~~ was an extremely simple bot to react to any message posted in a specified channel with thumbs up/down emoji, to enable a rudimentary feedback mechanism. It will also notify moderators of popular items of feedback.
 
+For HWSUK, the functionality of this bot has been rolled into Unity as a cog.
+
 ## Deployment
 
 On Ubuntu, clone the repo, then:
